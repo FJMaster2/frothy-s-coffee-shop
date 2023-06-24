@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bootstrap Site</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css"
+      integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js"
+      integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <nav
+          class="navbar navbar-expand-lg navbar-light"
+          style="background-color: #663423"
+        >
+          <div class="logo">
+            <a class="navbar-brand"
+              ><img
+                src="Frothys logo-with cups.webp"
+                width="40px"
+                height="40px"
+                style="padding-left: 5px"
+                alt=""
+              />
+              <span style="color: white" class="navbar-brand mb-0 h1"
+                >Frothy's Coffee Shop</span
+              ></a
+            >
+          </div>
+          <div>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-toggle="collapse"
+              data-target="#navbar"
+              aria-controls="navbar"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div
+              class="collapse navbar-collapse"
+              id="navbar"
+              style="padding-right: 15px"
+            >
+              <ul class="navbar-nav">
+                <li class="nav-item active">
+                  <a class="nav-link" style="color: white" href="#Home"
+                    >Home <span class="sr-only">(current)</span></a
+                  >
+                </li>
+                <li class="nav-item active">
+                  <a class="nav-link" style="color: white" href="#about-us"
+                    >About us</a
+                  >
+                </li>
+                <li class="nav-item active">
+                  <a
+                    class="nav-link"
+                    href="#menu"
+                    style="color: white"
+                    role="button"
+                  >
+                    Menu
+                  </a>
+                </li>
+                <li class="nav-item active">
+                  <a class="nav-link" style="color: white" href="#contact_us"
+                    >Contact Us</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </header>
+      <main>
+        <center
+          style="
+            height: 600px;
+            background-color: black;
+            background-image: url('ice_cream_image3.png');
+
+            background-size: cover;
+          "
+        >
+          <br />
+          <br />
+          <br />
+          <div class="texty">
+            <h2 style="color: white">Welcome to</h2>
+            <h1 style="color: #fca503">Frothy's Coffee Shop</h1>
+
+            <span>
+              <div
+                class="line line--left"
+                style="
+                  float: left;
+                  width: 13.25%;
+                  opacity: 1;
+                  margin-left: 480px;
+                "
+              ></div>
+              <img
+                style="height: 30px; width: 30px"
+                src="drink_image.webp"
+                alt=""
+              />
+              <div
+                class="line line--right"
+                style="
+                  width: 13.25%;
+                  float: right;
+                  opacity: 1;
+                  margin-right: 480px;
+                "
+              ></div>
+            </span>
+          </div>
+          <h3 style="color: #fca503">Eat | Drink | Relax</h3>
+        </center>
+        <div style="text-align: center;
+          overflow: hidden;">
+          <br />
+          <h2 id="">Home</h2>
+          <center>
+          <p>
+            Frothys Coffee Shop is a family run independent business offering
+            breakfast, light lunches, cakes & beverages
+          </p>
+        </center>
+        <br>
+          <div style="float: left; padding-left: 30%;">
+            <h3>Opening Hours</h3>
+
+            <p>
+              Mon - Sat: 8am - 4:30pm  <br> <br>
+              Breakfast: 8am - 11am <br> <br>
+               Lunch 11am - 3:30pm <br> <br>
+               Sun 10am - 4pm <br> <br>
+                Brunch menu 10am - 3pm
+            </p>
+          </div>
+          <ul class="ultwo" style="float: right; padding-right: 30%;">
+            
+            <li>Licensed</li>
+            <li>Loyalty scheme</li>
+            <li>Takeaway</li>
+            <li>Deccaffenaited Tea & Coffee</li>
+            <li>Vegan/Vegetarian options</li>
+            <li>Gluten free</li>
+            <li>Altrnative Milks</li>
+            <li>Outside seating</li>
+            <li>Open Fire</li>
+            <li>Baby changing facilities</li>
+            <li id="Home">Newspaper & Magazines</li>
+          </ul>
+        </div>
+        <div
+          class="header"
+          id="about-us"
+          style="text-align: center; background-color: #663423"
+        >
+          <br />
+          <h1 style="text-align: center; color: white">About Us</h1>
+          <br />
+
+          <p style="text-align: center; color: white">
+            Richard, Louise & their team at Frothys Coffee Shop has been proudly
+            serving Stamford since 2007. Since then, our mission has been to
+            provide freshly prepared food to order on the premises using
+            quality, locally sourced produce whenever possible. Vegetarians,
+            vegans & gluten free dietary needs are all catered for.
+            Decaffeinated & dairy milk alternatives are available. We pride
+            ourselves on our welcoming, friendly customer service. Frothys is
+            licensed, so you can enjoy Draught & Bottled Beer, a glass of wine,
+            Cider or Baileys latte. There is plenty of space, a great vintage
+            map on the wall & work from local artists taking pride of place.
+            There's seating outside & a roaring fire to suit all weathers.
+            Newspapers & magazines are on display for your perusal.
+          </p>
+          <br />
+          <h5 style="color: #fca503; text-align: center">
+            Try it yourself, stop by today!
+          </h5>
+          <br />
+          <br />
+        </div>
+
+        <div id="menu" class="Menu">
+          <br />
+          <h1 style="text-align: center">Menu</h1>
+          <br />
+          <p style="padding: 0px 50px">
+            The chef-driven menu highlights ingredients sourced locally whenever
+            possible. Our suppliers, to name but a few, include Askers Bakery,
+            Nelsons Butchers, Colin Fisheries, Peterborough Dairy and Premier
+            Produce for fresh seasonal vegetables to create simple, handcrafted
+            dishes served straight from our kitchen.
+          </p>
+          <br />
+          <div
+            id="carouselExampleControls"
+            class="carousel slide"
+            data-ride="carousel"
+          >
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img
+                  class="d-block w-100"
+                  src="carousel mushrooms.webp"
+                  alt="First slide"
+                />
+              </div>
+              <div class="carousel-item">
+                <img
+                  class="d-block w-100"
+                  src="carousel toast and mushrooms.webp"
+                  alt="Second slide"
+                />
+              </div>
+              <div class="carousel-item">
+                <img
+                  class="d-block w-100"
+                  src="carousel cake.webp"
+                  alt="Third slide"
+                />
+              </div>
+              <div class="carousel-item">
+                <img
+                  class="d-block w-100"
+                  src="carousel raisin bread.webp"
+                  alt="Third slide"
+                />
+              </div>
+              <div class="carousel-item">
+                <img
+                  class="d-block w-100"
+                  src="carousel sharp toothpick thing.webp"
+                  alt="Third slide"
+                />
+              </div>
+              <div class="carousel-item">
+                <img
+                  class="d-block w-100"
+                  src="carousel sesame seeds.webp"
+                  alt="Third slide"
+                />
+              </div>
+              <div class="carousel-item">
+                <img
+                  class="d-block w-100"
+                  src="nice cake.webp"
+                  alt="Third slide"
+                />
+              </div>
+            </div>
+            <a
+              class="carousel-control-prev"
+              href="#carouselExampleControls"
+              role="button"
+              data-slide="prev"
+            >
+              <span
+                class="carousel-control-prev-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a
+              class="carousel-control-next"
+              href="#carouselExampleControls"
+              role="button"
+              data-slide="next"
+            >
+              <span
+                class="carousel-control-next-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="sr-only">Next</span>
+            </a>
+          </div>
+        </div>
+        <div style="text-align: center; background-color: #663423">
+          <br />
+          <span>
+            <img
+              onclick="img_one()"
+              class="qone"
+              style="padding: 10px"
+              src="menu 1.webp"
+              alt=""
+            />
+            <img
+              onclick="img_two()"
+              class="qone"
+              style="padding: 10px"
+              src="menu 2.webp"
+              alt=""
+            />
+          </span>
+          <br />
+        </div>
+        <div
+          id="contact_us"
+          style="background-color: black; opacity: 90%; z-index: -1"
+        >
+          <h1 style="color: white; text-align: center">Contact us</h1>
+          <br />
+          <img
+            class="img-deg"
+            style="
+              float: left;
+              width: 445px;
+              height: 500;
+              padding-left: 30px;
+              padding-bottom: 80px;
+              padding-right: 25px;
+            "
+            src="frothys owners.webp"
+            alt=""
+          />
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1711.4707995477834!2d-0.47897305262684414!3d52.65301932945858!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48778bce1b58f8d7%3A0xc5c7a4b60ff91929!2s12%20Ironmonger%20St%2C%20Stamford%20PE9%201PL%2C%20UK!5e0!3m2!1sen!2sus!4v1687435411406!5m2!1sen!2sus"
+            width="50%"
+            height="500"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+          <div
+            class="text-box"
+            style="color: white; float: right; padding-right: 30px"
+          >
+            <h4>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                height="1em"
+                viewBox="0 0 448 512"
+              >
+                <style>
+                  svg {
+                    fill: #eeeded;
+                  }
+                </style>
+                <path
+                  d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"
+                />
+              </svg>
+              Instagram
+            </h4>
+            <h4>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                height="1em"
+                viewBox="0 0 512 512"
+              >
+                <style>
+                  svg {
+                    fill: #eeeeed;
+                  }
+                </style>
+                <path
+                  d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z"
+                />
+              </svg>
+              Twitter
+            </h4>
+            <h4>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                height="1em"
+                viewBox="0 0 320 512"
+              >
+                <style>
+                  svg {
+                    fill: #eeeeed;
+                  }
+                </style>
+                <path
+                  d="M279.14 288l14.22-92.66h-88.91v-60.13c0-25.35 12.42-50.06 52.24-50.06h40.42V6.26S260.43 0 225.36 0c-73.22 0-121.08 44.38-121.08 124.72v70.62H22.89V288h81.39v224h100.17V288z"
+                />
+              </svg>
+              Facebook
+            </h4>
+            <h6>01780 751110</h6>
+            <a href="footer"> <h6>Email us</h6></a>
+          </div>
+        </div>
+      </main>
+    </div>
+
+    <footer style="background-color: #663423; color: white; top: 100%">
+     <br>
+      <h6>Email: contact@frothyscoffeeshop.com</h6>
+      <h6>©2023 by Frothys Coffee Shop</h6>
+      <br>
+    </footer>
+  </body>
+</html>
